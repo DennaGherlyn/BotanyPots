@@ -1,0 +1,29 @@
+{
+    "bookshelf:load_conditions": [
+      {
+        "type": "bookshelf:item_exists",
+        "values": [
+          "biomemakeover:water_lily"
+        ]
+      }
+    ],
+    "type": "botanypots:crop",
+    "seed": {
+      "item": "biomemakeover:water_lily"
+    },
+    "categories": [
+      "water"
+    ],
+    "growthTicks": 1200,
+    "display": {
+      "block": "biomemakeover:water_lily"
+    },
+    "drops": [
+      {
+        "chance": 1.00,
+        "output": {
+          "item": "biomemakeover:water_lily"
+        }
+      }
+    ]
+}
